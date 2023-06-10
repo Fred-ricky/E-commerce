@@ -1,5 +1,7 @@
 @extends('layout.master')
 @section('name', 'Home page')
 @section('content')
-    homepage
+    <main class="homepage">
+        @include('pages.components.home.header')
+    </main>
 @endsection
